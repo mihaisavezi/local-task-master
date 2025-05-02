@@ -3,10 +3,6 @@ description: Describes the high-level architecture of the Task Master CLI applic
 globs: scripts/modules/*.js
 alwaysApply: false
 ---
-<<<<<<< HEAD
-=======
-
->>>>>>> a82284a2dbab901922c443888f87f54950c1af61
 # Application Architecture Overview
 
 - **Modular Structure**: The Task Master CLI is built using a modular architecture, with distinct modules responsible for different aspects of the application. This promotes separation of concerns, maintainability, and testability.

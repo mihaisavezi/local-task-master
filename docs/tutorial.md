@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Local Task Master Tutorial
 
 This tutorial will guide you through setting up and using Local Task Master for AI-driven development.
@@ -10,34 +9,15 @@ There are two ways to set up Local Task Master: using MCP (recommended) or via n
 ### Option 1: Using MCP (Recommended)
 
 MCP (Model Control Protocol) provides the easiest way to get started with Local Task Master directly in your editor.
-=======
-# Task Master Tutorial
-
-This tutorial will guide you through setting up and using Task Master for AI-driven development.
-
-## Initial Setup
-
-There are two ways to set up Task Master: using MCP (recommended) or via npm installation.
-
-### Option 1: Using MCP (Recommended)
-
-MCP (Model Control Protocol) provides the easiest way to get started with Task Master directly in your editor.
->>>>>>> a82284a2dbab901922c443888f87f54950c1af61
 
 1. **Add the MCP config to your editor** (Cursor recommended, but it works with other text editors):
 
 ```json
 {
 	"mcpServers": {
-<<<<<<< HEAD
 		"taskmaster": {
 			"command": "npx",
 			"args": ["-y", "--package=local-task-master", "local-task-master"],
-=======
-		"taskmaster-ai": {
-			"command": "npx",
-			"args": ["-y", "--package=task-master-ai", "task-master-ai"],
->>>>>>> a82284a2dbab901922c443888f87f54950c1af61
 			"env": {
 				"ANTHROPIC_API_KEY": "YOUR_ANTHROPIC_API_KEY_HERE",
 				"PERPLEXITY_API_KEY": "YOUR_PERPLEXITY_API_KEY_HERE",
@@ -55,17 +35,10 @@ MCP (Model Control Protocol) provides the easiest way to get started with Task M
 
 2. **Enable the MCP** in your editor settings
 
-<<<<<<< HEAD
 3. **Prompt the AI** to initialize Local Task Master:
 
 ```
 Can you please initialize taskmaster into my project?
-=======
-3. **Prompt the AI** to initialize Task Master:
-
-```
-Can you please initialize taskmaster-ai into my project?
->>>>>>> a82284a2dbab901922c443888f87f54950c1af61
 ```
 
 The AI will:
@@ -76,11 +49,7 @@ The AI will:
 
 4. Place your PRD document in the `scripts/` directory (e.g., `scripts/prd.txt`)
 
-<<<<<<< HEAD
 5. **Use natural language commands** to interact with Local Task Master:
-=======
-5. **Use natural language commands** to interact with Task Master:
->>>>>>> a82284a2dbab901922c443888f87f54950c1af61
 
 ```
 Can you parse my PRD at scripts/prd.txt?
@@ -94,17 +63,10 @@ If you prefer to use the command line interface directly:
 
 ```bash
 # Install globally
-<<<<<<< HEAD
 npm install -g local-task-master
 
 # OR install locally within your project
 npm install local-task-master
-=======
-npm install -g task-master-ai
-
-# OR install locally within your project
-npm install task-master-ai
->>>>>>> a82284a2dbab901922c443888f87f54950c1af61
 ```
 
 Initialize a new project:
